@@ -1,0 +1,79 @@
+h1{
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    color: gainsboro;
+}
+
+
+body{
+   background-color: black; 
+}
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    border:1px solid gainsboro;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    font-size: 22px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form .boxTxt{
+    width : 100%;
+    height: 22px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form .btnEnviar{
+    margin-top: 5px;
+    border:none;
+    width: 101%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    padding: 12px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+* {
+    margin:0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    border:none;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    padding: 12px;
+}
+
+a:hover{
+    color: red;
+}
