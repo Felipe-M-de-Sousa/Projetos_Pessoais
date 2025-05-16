@@ -12,7 +12,7 @@ async def on_ready():
 async def on_message(msg:discord.Message):
     if.msg.author.bot:
         return
-    await msg.reply("O usuário enviou uma mensagem") 
+    await msg.reply(f"O usuário {msg.author.metion} enviou uma mensagem no canaç {msg.channel.name}") 
 
 @bot.commands()
 async def ola(ctx:commands.Context):
@@ -37,4 +37,4 @@ async def somar(ctx:commands.Context, num1:float, num2:float):
     resultado = num1 + num2
     await ctx.reply(f"A soma entre {num1} e {num2} é igual a {resultado}")
 
-bot.run("")    
+bot.run("")
